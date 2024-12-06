@@ -1,0 +1,121 @@
+<!--Ricardo Adams-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="CSS\commercial.css"/>
+    <meta charset="UTF-8">
+<title><h1>Aviation-Meta</h1></title>
+    <style>
+
+        body{
+            width:80%;
+            margin-left:auto;
+            margin-right:auto;
+            
+        }
+
+        section#main{
+            background-color:color-mix(in srgb, color percentage, color percentage);
+            height: 800px;
+            align-items: center;
+            background-color:bisque;
+            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.7);
+        }
+
+       h2{
+            margin-left:40%;
+            margin-right:40%;
+            margin-bottom: 100px;
+            padding-top: 50px;
+        }
+
+        h3{
+            margin-left: 10%;
+            margin-right: auto;
+        }
+        
+        form{
+            background-color:beige;
+            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.7);
+        }
+        div.formRow{
+            display:flex;
+            flex-direction: column;
+            align-items: left;
+            text-align: left;
+           
+        }
+
+        div.formRow label{
+            margin-right: 10px;
+            margin-left:0x;
+            text-align: top;
+          
+        }
+
+        div{
+            margin-left:50px;
+        }
+
+        div.formRow input{
+            width: 250px
+        }
+        div.email input{
+            width:250px;
+        }
+
+        fieldset{
+            border: none;
+        }
+
+        button{
+            margin-left: 85%;
+            margin-top: 50px;
+        }
+     
+
+    </style>
+</head>
+<body>
+
+<!---->
+<h1></h1>
+<!--The section will hold the image and summary of each aircraft-->
+
+    <!--Navigation menu-->
+    <header>Aviation Meta<img id="logo" src="../AVIATION META/Images/Aviation_Meta_logo_banner-removebg-preview.png"/></header> 
+<section id="main">
+
+<p><h2>CONTACT US</h2></p>
+<p><h3>For questions of feedback please submit the for </h3></p>
+ <form id="contactus" action="https://posttestserver.dev/p/rick/post" method="post" enctype="type">
+    <fieldset id="name">
+        <div class="formRow">
+            <label for="fname"> First Name</label>
+            <input name="fname" id="fname" accesskey=1 type="text" />
+            <label for="lname"> Last Name</label>
+            <input name="lname" id="lname" accesskey=2 type="text"/>
+        </div>
+    </fieldset>
+    
+    <fieldset id="email">
+        <div class="formRow">
+            <label for="email">Email</label>
+            <input name="email" id="email"  accesskey=3 type="email"/>
+        </div>
+    </fieldset>   
+    
+    <fieldset id="email">
+    <div class="formRow">
+        <label id="feddback">Feedback</label>
+        <textarea name="feedback" id="feedback" rows="10" cols="60"></textarea>
+    </div>
+    </fieldset>
+    <button type="submit">Submit</button>
+ </form>
+<footer></footer>
+</section>
+</body>
+
+</html>
