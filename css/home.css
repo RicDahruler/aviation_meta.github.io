@@ -20,8 +20,8 @@ header{
 #logo{
     height: 50px;
     align-items: center;
-    margin-right: auto;
-    margin-left: auto;
+    padding-left: 80%;
+    padding-right:80%;
 }
 
 section#banner_boarder{
@@ -36,12 +36,12 @@ section#banner_boarder{
     margin-right:auto;
     margin-left: auto;
     padding-left: 30%;
-    
+    padding-right:30%;
 }
 
 section.banner{
     margin-top: 0px;
-    margin-left: auto;
+    margin-left: 30%;
     margin-right:auto;
     display:block;
     background-image: url('../Images/737-600 flying .png');
@@ -69,15 +69,15 @@ float:center;
 text-align: center;
 width:800px;
 height: 80px;
-margin-left:auto;
-margin-right:auto;
+padding-left: 30%;
+padding-right:30%;
 font-family:Parkinsans;
 }
 
 section#options{
     display:block;
-    margin-left:auto;
-    margin-right:auto;
+    padding-left: 20%;
+    padding-right:25%;
     width: 1200px;
     margin-bottom: 400px;
 }
