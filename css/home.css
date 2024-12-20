@@ -42,7 +42,7 @@ section#banner_boarder{
 section.banner{
     margin-top: 0px;
     margin-left: 30%;
-    margin-right:auto;
+    margin-right:;
     display:block;
     background-image: url('../Images/737-600 flying .png');
     width: 1000px;
@@ -51,6 +51,7 @@ section.banner{
 }
 
 section.banner h1{
+    display:block;
     margin-top: 0px;
     margin-left:auto;
     margin-right:auto;
