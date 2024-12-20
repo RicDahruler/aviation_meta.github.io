@@ -17,12 +17,6 @@ header{
     margin-right: auto;
 }
 
-#logo{
-    height: 50px;
-    align-items: center;
-    padding-left: 80%;
-    padding-right:80%;
-}
 
 section#banner_boarder{
     display:block;
@@ -33,16 +27,25 @@ section#banner_boarder{
 }
 
 .title{
-    margin-right:auto;
-    margin-left: auto;
-    padding-left: 30%;
-    padding-right:30%;
+    margin-right:30%;
+    margin-left:auto;
+    width:300px;
+    padding-left:40%;
 }
+#logo{
+    margin-right:auto;
+    margin-left:auto;
+    height: 50px;
+    width:60px;
+    padding-left: 0%;
+    padding-right:0%;
+}
+
 
 section.banner{
     margin-top: 0px;
     margin-left: 30%;
-    margin-right:;
+    margin-right:30%;
     display:block;
     background-image: url('../Images/737-600 flying .png');
     width: 1000px;
