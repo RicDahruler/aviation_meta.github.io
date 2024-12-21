@@ -3,8 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Parkinsans:wght@300..800&display=swap');
 body{
     padding-bottom: 0px;
-    width:80%;
+    width:100%;
     align-items: center;
+    background-color: bisque;
 }
 header{
     color: blue;
@@ -45,8 +46,8 @@ section#banner_boarder{
 section.banner{
     display:block;
     margin-top: 0px;
-    margin-left: 35%;
-    margin-right:35%;
+    margin-left: auto;
+    margin-right:auto;
     background-image: url('../Images/737-600 flying .png');
     width: 900px;
     height: 400px;
@@ -72,15 +73,15 @@ section#discription{
 display:block;
 width:800px;
 height:80px;
-margin-right: 40%;
-margin-left: 40%;
+margin-right: auto;
+margin-left: auto;
 font-family:Parkinsans;
 }
 
 section#options{
     display:block;
-    padding-left: 20%;
-    padding-right:20%;
+    padding-left: 0%;
+    padding-right:0%;
     width: 1200px;
     margin-right: auto;
     margin-left: auto;
@@ -133,8 +134,8 @@ section#bottom_divider{
     background-color: rgb(60, 94, 207);
     width: 1000px;
     height: 10px;
-    margin-left:30%;
-    margin-right:30%;
+    margin-left:auto;
+    margin-right:auto;
     box-shadow: 10px 10px 20px rgba(20, 82, 133, 0.7);
 }
 
